@@ -32,14 +32,14 @@ Modular Design: Reuse code with modules to avoid duplication and improve maintai
 Rich Ecosystem: Has extensive community support and modules on the Terraform Registry.
 Comparison with Other Tools:
 
-Terraform vs Ansible: Terraform focuses on provisioning infrastructure, while Ansible manages both provisioning and configuration.
-Terraform vs AWS CloudFormation: CloudFormation is AWS-specific, while Terraform is provider-agnostic and works across clouds.
+🤔Terraform vs Ansible: Terraform focuses on provisioning infrastructure, while Ansible manages both provisioning and configuration.
+🤔Terraform vs AWS CloudFormation: CloudFormation is AWS-specific, while Terraform is provider-agnostic and works across clouds.
 
 ✔️How Does Terraform Work?
 Terraform interacts with cloud platforms and other services using their Application Programming Interfaces (APIs). The tool relies on providers - plugins that map Terraform configurations to the APIs of these platforms and services. HashiCorp and the Terraform community maintain thousands of providers, which can be accessed through the Terraform Registry.
 Terraform works by executing a series of steps to define, plan, and provision your infrastructure:
 
-Configuration:
+✔️Configuration:
 You define your desired infrastructure in .tf files using HCL. These files describe resources (e.g., EC2 instances, storage buckets) and their configurations.
 
 Initialization (terraform init):
